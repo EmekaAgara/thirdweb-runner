@@ -433,57 +433,12 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.CollabProxy.Editor.AdditionalFile.txt","enqueuedNodeIndex":345,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/2000b0aE.dag/Unity.CollabProxy.Editor.dll (+2 others)","enqueueingNodeIndex":347}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.CollabProxy.Editor.rsp","enqueuedNodeIndex":346,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/2000b0aE.dag/Unity.CollabProxy.Editor.dll (+2 others)","enqueueingNodeIndex":347}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb","enqueuedNodeIndex":434,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.AdditionalFile.txt","index":328}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp","index":329}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.AdditionalFile.txt","index":328}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp","index":329}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp","index":343}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp","index":343}
-{"msg":"noderesult","processed_node_count":223,"number_of_nodes_ever_queued":434,"annotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.AdditionalFile.txt","index":328,"exitcode":0,"outputfile":"Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.AdditionalFile.txt"}
-{"msg":"noderesult","processed_node_count":223,"number_of_nodes_ever_queued":434,"annotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp","index":343,"exitcode":0,"outputfile":"Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"}
-{"msg":"noderesult","processed_node_count":225,"number_of_nodes_ever_queued":434,"annotation":"WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp","index":329,"exitcode":0,"outputfile":"Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp"}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Analytics.ref.dll_1C6E42BCD11A4CE5.mvfrm","index":335}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Analytics.ref.dll_1C6E42BCD11A4CE5.mvfrm","index":335}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_63B9EB35A0645901.mvfrm","index":331}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_63B9EB35A0645901.mvfrm","index":331}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_CF19E61DDF16767F.mvfrm","index":339}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_CF19E61DDF16767F.mvfrm","index":339}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_C0422B8CE3C1BDD1.mvfrm","index":332}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_E01181B6C057CE40.mvfrm","index":337}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_33A4BA77A8412D3F.mvfrm","index":336}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_E01181B6C057CE40.mvfrm","index":337}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_C0422B8CE3C1BDD1.mvfrm","index":332}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_33A4BA77A8412D3F.mvfrm","index":336}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_05875DFCD7CD8938.mvfrm","index":338}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_05875DFCD7CD8938.mvfrm","index":338}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_D971BCE13ACE101D.mvfrm","index":341}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_D971BCE13ACE101D.mvfrm","index":341}
-{"msg":"noderesult","processed_node_count":301,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_D971BCE13ACE101D.mvfrm","index":341,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_D971BCE13ACE101D.mvfrm"}
-{"msg":"newNode","annotation":"Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)","index":330}
+{"msg":"nodeRetryBuild","annotation":"Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)","index":330}
 {"msg":"runNodeAction","annotation":"Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)","index":330}
-{"msg":"noderesult","processed_node_count":305,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Analytics.ref.dll_1C6E42BCD11A4CE5.mvfrm","index":335,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Analytics.ref.dll_1C6E42BCD11A4CE5.mvfrm"}
-{"msg":"noderesult","processed_node_count":305,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_E01181B6C057CE40.mvfrm","index":337,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_E01181B6C057CE40.mvfrm"}
-{"msg":"noderesult","processed_node_count":305,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_63B9EB35A0645901.mvfrm","index":331,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_63B9EB35A0645901.mvfrm"}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_95D4598D0844CFCE.mvfrm","index":340}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_BB682F4C994978A9.mvfrm","index":334}
-{"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_7E7DD2F3C2805153.mvfrm","index":342}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_95D4598D0844CFCE.mvfrm","index":340}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_BB682F4C994978A9.mvfrm","index":334}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_7E7DD2F3C2805153.mvfrm","index":342}
-{"msg":"noderesult","processed_node_count":308,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_CF19E61DDF16767F.mvfrm","index":339,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_CF19E61DDF16767F.mvfrm"}
-{"msg":"noderesult","processed_node_count":423,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_C0422B8CE3C1BDD1.mvfrm","index":332,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_C0422B8CE3C1BDD1.mvfrm"}
-{"msg":"noderesult","processed_node_count":423,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_33A4BA77A8412D3F.mvfrm","index":336,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_33A4BA77A8412D3F.mvfrm"}
-{"msg":"noderesult","processed_node_count":425,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_05875DFCD7CD8938.mvfrm","index":338,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_05875DFCD7CD8938.mvfrm"}
-{"msg":"noderesult","processed_node_count":426,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_95D4598D0844CFCE.mvfrm","index":340,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_95D4598D0844CFCE.mvfrm"}
-{"msg":"noderesult","processed_node_count":427,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_7E7DD2F3C2805153.mvfrm","index":342,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_7E7DD2F3C2805153.mvfrm"}
-{"msg":"noderesult","processed_node_count":428,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_BB682F4C994978A9.mvfrm","index":334,"exitcode":0,"outputfile":"Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_BB682F4C994978A9.mvfrm"}
-{"msg":"newNode","annotation":"MovedFromExtractorCombine Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm","index":344}
-{"msg":"runNodeAction","annotation":"MovedFromExtractorCombine Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm","index":344}
-{"msg":"noderesult","processed_node_count":429,"number_of_nodes_ever_queued":434,"annotation":"MovedFromExtractorCombine Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm","index":344,"exitcode":0,"outputfile":"Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm"}
 {"msg":"noderesult","processed_node_count":430,"number_of_nodes_ever_queued":434,"annotation":"Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)","index":330,"exitcode":0,"outputfile":"Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll"}
-{"msg":"newNode","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":431}
+{"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":431,"changes":[{"key":"InputFileList","value":["Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll"],"oldvalue":[],"dependency":"explicit"}]}
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":431}
-{"msg":"newNode","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":432}
+{"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":432,"changes":[{"key":"InputFileList","value":["Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.pdb"],"oldvalue":[],"dependency":"explicit"}]}
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":432}
 {"msg":"noderesult","processed_node_count":431,"number_of_nodes_ever_queued":434,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":432,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Assembly-CSharp.pdb"}
 {"msg":"noderesult","processed_node_count":432,"number_of_nodes_ever_queued":434,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":431,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Assembly-CSharp.dll"}
