@@ -9256,6 +9256,7 @@ GameObject:
   - component: {fileID: 1826509516}
   - component: {fileID: 1826509518}
   - component: {fileID: 1826509519}
+  - component: {fileID: 1826509520}
   m_Layer: 0
   m_Name: LevelControl
   m_TagString: Untagged
@@ -9325,6 +9326,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinCountDisplay: {fileID: 846654947}
+--- !u!114 &1826509520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826509515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ed02c14c13e471b8ca18682500d653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disDisplay: {fileID: 252641961}
+  disRun: 0
+  addingDis: 0
 --- !u!4 &1838223988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 429354, guid: 25e5c01865542e449bf00fcc40da6a11, type: 3}
