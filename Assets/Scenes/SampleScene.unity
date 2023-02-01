@@ -3991,7 +3991,7 @@ GameObject:
   - component: {fileID: 846654950}
   - component: {fileID: 846654949}
   m_Layer: 5
-  m_Name: Text (Legacy) (1)
+  m_Name: CoinCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8890,6 +8890,7 @@ GameObject:
   - component: {fileID: 1826509517}
   - component: {fileID: 1826509516}
   - component: {fileID: 1826509518}
+  - component: {fileID: 1826509519}
   m_Layer: 0
   m_Name: LevelControl
   m_TagString: Untagged
@@ -8946,6 +8947,19 @@ MonoBehaviour:
   zPos: 50
   creatingSection: 0
   secNum: 0
+--- !u!114 &1826509519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826509515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0956619138b942e7ac529459d439f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinCountDisplay: {fileID: 846654947}
 --- !u!4 &1838223988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 429354, guid: 25e5c01865542e449bf00fcc40da6a11, type: 3}
