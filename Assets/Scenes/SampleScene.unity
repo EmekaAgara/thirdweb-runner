@@ -638,12 +638,12 @@ GameObject:
   - component: {fileID: 81463694}
   - component: {fileID: 81463696}
   m_Layer: 5
-  m_Name: 3 text
+  m_Name: 3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &81463693
 RectTransform:
   m_ObjectHideFlags: 0
@@ -862,7 +862,7 @@ GameObject:
   - component: {fileID: 102519333}
   - component: {fileID: 102519332}
   m_Layer: 5
-  m_Name: 1 text
+  m_Name: 1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1908,7 +1908,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &312885374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4168,7 +4168,7 @@ GameObject:
   - component: {fileID: 738846596}
   - component: {fileID: 738846595}
   m_Layer: 5
-  m_Name: Go Text
+  m_Name: GoText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9855,6 +9855,7 @@ GameObject:
   - component: {fileID: 1826509518}
   - component: {fileID: 1826509519}
   - component: {fileID: 1826509520}
+  - component: {fileID: 1826509521}
   m_Layer: 0
   m_Name: LevelControl
   m_TagString: Untagged
@@ -9940,6 +9941,23 @@ MonoBehaviour:
   disRun: 0
   addingDis: 0
   disDelay: 0.55
+--- !u!114 &1826509521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826509515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db482e2a2ff224b4c9ebb97ecd1da388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countDown3: {fileID: 81463692}
+  countDown2: {fileID: 2078001235}
+  countDown1: {fileID: 102519330}
+  countDownGo: {fileID: 738846593}
+  fadeIn: {fileID: 312885373}
 --- !u!4 &1838223988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 429354, guid: 25e5c01865542e449bf00fcc40da6a11, type: 3}
@@ -10831,7 +10849,7 @@ GameObject:
   - component: {fileID: 2078001238}
   - component: {fileID: 2078001237}
   m_Layer: 5
-  m_Name: 2 text
+  m_Name: 2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

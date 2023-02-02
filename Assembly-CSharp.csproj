@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Scripts/Player/PlayerMove.cs" />
+     <Compile Include="Assets/Scripts/Environment/LevelStarter.cs" />
      <Compile Include="Assets/Scripts/Collectables/RotateObject.cs" />
      <Compile Include="Assets/Scripts/Collectables/LevelDistance.cs" />
      <Compile Include="Assets/Scripts/Collectables/CollectableControl.cs" />
