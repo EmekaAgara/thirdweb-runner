@@ -5,12 +5,12 @@ using UnityEngine;
 public class ObstacleCollision : MonoBehaviour
 {
     // public AudioSource coinFX;
+    public GameObject thePlayer;
 
     void OnTriggerEnter(Collider other)
     {
-        coinFX.Play();
-        CollectableControl.coinCount += 1;
-        this.gameObject.SetActive(false);
+        this.gameObject.GetComponent<BoxCollider>().enabled = false;
+        thePlayer.GetComponent<PlayerMove>().enabled = false;
     }
 
 }
