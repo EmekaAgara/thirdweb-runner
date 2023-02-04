@@ -46,6 +46,7 @@
      <Compile Include="Assets/Scripts/Environment/GenerateLevel.cs" />
      <Compile Include="Assets/Scripts/Collectables/CollectCoin.cs" />
      <Compile Include="Assets/Scripts/Environment/ObstacleCollision.cs" />
+     <Compile Include="Assets/Scripts/Menu/MainMenuFunction.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
