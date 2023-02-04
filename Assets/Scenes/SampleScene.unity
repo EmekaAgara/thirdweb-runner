@@ -12553,6 +12553,7 @@ GameObject:
   - component: {fileID: 1826509519}
   - component: {fileID: 1826509520}
   - component: {fileID: 1826509521}
+  - component: {fileID: 1826509522}
   m_Layer: 0
   m_Name: LevelControl
   m_TagString: Untagged
@@ -12658,6 +12659,22 @@ MonoBehaviour:
   countDown1: {fileID: 102519330}
   countDownGo: {fileID: 738846593}
   fadeIn: {fileID: 312885373}
+--- !u!114 &1826509522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826509515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1836033d9610447bc9dd86553847f0b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liveCoins: {fileID: 446233791}
+  liveDis: {fileID: 444497469}
+  endScreen: {fileID: 1512710441}
+  fadeOut: {fileID: 0}
 --- !u!4 &1838223988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 429354, guid: 25e5c01865542e449bf00fcc40da6a11, type: 3}

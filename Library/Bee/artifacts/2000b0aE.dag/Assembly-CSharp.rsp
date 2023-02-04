@@ -336,6 +336,7 @@
 "Assets/Scripts/Collectables/CollectCoin.cs"
 "Assets/Scripts/Collectables/LevelDistance.cs"
 "Assets/Scripts/Collectables/RotateObject.cs"
+"Assets/Scripts/Environment/EndRunSequence.cs"
 "Assets/Scripts/Environment/GenerateLevel.cs"
 "Assets/Scripts/Environment/LevelBoundary.cs"
 "Assets/Scripts/Environment/LevelStarter.cs"
