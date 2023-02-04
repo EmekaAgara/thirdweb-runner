@@ -796,3 +796,15 @@ Received Import Request.
   path: Assets/Scripts/Environment/EndRunSequence.cs
   artifactKey: Guid(1836033d9610447bc9dd86553847f0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Environment/EndRunSequence.cs using Guid(1836033d9610447bc9dd86553847f0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acf99a15bbdc102d0a9e1ad2e942c9e') in 0.007413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 304.055497 seconds.
+  path: Assets/Animations/FadeOut.controller
+  artifactKey: Guid(519a44f5d5d2f4b0097add6f284c5875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/FadeOut.controller using Guid(519a44f5d5d2f4b0097add6f284c5875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bfd5b5f5573947fa4924250c18fdeb') in 0.155801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.134582 seconds.
+  path: Assets/Animations/FadeOut.anim
+  artifactKey: Guid(57bb3809f21644d4fab8f246ef5a531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/FadeOut.anim using Guid(57bb3809f21644d4fab8f246ef5a531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05daa1943f94f93da43faf50d6a63e9b') in 0.117289 seconds 
