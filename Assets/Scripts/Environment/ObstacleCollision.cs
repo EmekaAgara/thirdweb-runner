@@ -17,6 +17,7 @@ public class ObstacleCollision : MonoBehaviour
         charModel.GetComponent<Animator>().Play("Slipping");
         levelControl.GetComponent<LevelDistance>().enabled = false;
         crashSound.Play();
+        levelControl.GetComponent<EndRunSequence>().enabled = true;
     }
 
 }
