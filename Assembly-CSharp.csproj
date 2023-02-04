@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/Player/PlayerMove.cs" />
      <Compile Include="Assets/Scripts/Environment/LevelStarter.cs" />
+     <Compile Include="Assets/Scripts/Environment/EndRunSequence.cs" />
      <Compile Include="Assets/Scripts/Collectables/RotateObject.cs" />
      <Compile Include="Assets/Scripts/Collectables/LevelDistance.cs" />
      <Compile Include="Assets/Scripts/Collectables/CollectableControl.cs" />
@@ -45,7 +46,6 @@
      <Compile Include="Assets/Scripts/Environment/GenerateLevel.cs" />
      <Compile Include="Assets/Scripts/Collectables/CollectCoin.cs" />
      <Compile Include="Assets/Scripts/Environment/ObstacleCollision.cs" />
-     <Compile Include="Assets/Scripts/Environment/EndRunSequence.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
