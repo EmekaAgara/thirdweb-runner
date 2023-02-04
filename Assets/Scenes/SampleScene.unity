@@ -10343,7 +10343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1512710442}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: EndScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12598,6 +12598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinCountDisplay: {fileID: 846654947}
+  coinEndDisplay: {fileID: 1698755094}
 --- !u!114 &1826509520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12611,6 +12612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disDisplay: {fileID: 252641961}
+  disEndDisplay: {fileID: 303790775}
   disRun: 0
   addingDis: 0
   disDelay: 0.55
