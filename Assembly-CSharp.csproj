@@ -47,6 +47,46 @@
      <Compile Include="Assets/Scripts/Collectables/CollectCoin.cs" />
      <Compile Include="Assets/Scripts/Environment/ObstacleCollision.cs" />
      <Compile Include="Assets/Scripts/Menu/MainMenuFunction.cs" />
+     <Compile Include="Assets/Thirdweb/Examples/Scripts/Prefabs/Prefab_NFT.cs" />
+     <Compile Include="Assets/Thirdweb/Examples/Scripts/Utils/LoadingSpinner.cs" />
+     <Compile Include="Assets/Thirdweb/Examples/Scripts/Prefabs/ThirdwebManager.cs" />
+     <Compile Include="Assets/Thirdweb/Examples/Scripts/Prefabs/Prefab_ConnectWallet.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Demo/ThirdwebSDKDemos.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/Deployer.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/Bridge.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/Contract.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/Types.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/Marketplace.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/Common.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/Wallet.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/ERC1155.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/ThirdwebSDK.cs" />
+     <Compile Include="Assets/Thirdweb/Examples/Scripts/Prefabs/Prefab_NFTLoader.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/ERC20.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/ERC721.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/Utils.cs" />
+     <Compile Include="Assets/Thirdweb/Core/Scripts/Pack.cs" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -719,6 +759,9 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>/Users/emekaagara/thirdweb-runner/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Play.Publisher.Editor">
+        <HintPath>/Users/emekaagara/thirdweb-runner/Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/Users/emekaagara/thirdweb-runner/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -730,6 +773,9 @@
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>/Users/emekaagara/thirdweb-runner/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
+        <HintPath>/Users/emekaagara/thirdweb-runner/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>/Users/emekaagara/thirdweb-runner/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
