@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace Thirdweb
@@ -85,6 +86,11 @@ namespace Thirdweb
             + $"\n>name: {name}"
             + $"\n>symbol: {symbol}"
             + $"\n>decimals: {decimals}";
+        }
+
+        public static implicit operator Currency(string v)
+        {
+            throw new NotImplementedException();
         }
     }
 
