@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThirdWebRunner.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/ClaimToken.unity
+    guid: 1d290b69efb5b40b493620ce08914cca
   m_configObjects: {}

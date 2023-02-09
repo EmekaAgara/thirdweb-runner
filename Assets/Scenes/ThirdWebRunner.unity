@@ -4394,7 +4394,7 @@ GameObject:
   - component: {fileID: 637755490}
   - component: {fileID: 637755489}
   - component: {fileID: 637755488}
-  - component: {fileID: 637755487}
+  - component: {fileID: 637755492}
   m_Layer: 0
   m_Name: ClaimToken
   m_TagString: Untagged
@@ -4418,19 +4418,6 @@ Transform:
   m_Father: {fileID: 461429442}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &637755487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637755485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 775058c2dea38494abe853eed0a82293, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coinFX: {fileID: 1683355836}
 --- !u!114 &637755488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4508,6 +4495,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637755485}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &637755492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637755485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41688eaf8828c458f8e41525b54b22b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinFX: {fileID: 1683355836}
 --- !u!1 &655001214 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 181422, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
@@ -7817,7 +7817,7 @@ GameObject:
   - component: {fileID: 1018995321}
   - component: {fileID: 1018995320}
   m_Layer: 0
-  m_Name: RUTTOKEN
+  m_Name: Coin2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

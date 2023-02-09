@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-
-public class CollectCoin : MonoBehaviour
+public class ClaimToken : MonoBehaviour
 {
     public AudioSource coinFX;
 
@@ -12,5 +12,6 @@ public class CollectCoin : MonoBehaviour
         coinFX.Play();
         CollectableControl.coinCount += 1;
         this.gameObject.SetActive(false);
+        SceneManager.LoadScene("ClaimToken");
     }
 }
