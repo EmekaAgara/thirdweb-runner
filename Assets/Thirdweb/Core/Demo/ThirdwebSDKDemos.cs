@@ -31,6 +31,7 @@ public class ThirdwebSDKDemos : MonoBehaviour
     public async void MetamaskLogin()
     {
         // ConnectWallet(WalletProvider.MetaMask);
+        walletInfotext.text = "Connected";
         string address = await sdk.wallet.Connect();
     }
 

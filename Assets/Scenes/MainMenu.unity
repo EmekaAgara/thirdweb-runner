@@ -1280,7 +1280,7 @@ GameObject:
   - component: {fileID: 409396794}
   - component: {fileID: 409396793}
   m_Layer: 5
-  m_Name: Milestones
+  m_Name: ConnectWallet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1339,7 +1339,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Connect MetaMask Wallet
+  m_Text: Connect Wallet
 --- !u!222 &409396794
 CanvasRenderer:
   m_ObjectHideFlags: 0
