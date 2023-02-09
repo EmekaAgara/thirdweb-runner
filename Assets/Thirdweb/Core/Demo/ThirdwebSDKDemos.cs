@@ -90,7 +90,7 @@ public class ThirdwebSDKDemos : MonoBehaviour
 
     public async void GetRUTBalance()
     {
-        string address = await sdk.wallet.Connect();
+        // string address = await sdk.wallet.Connect();
         var contract = sdk.GetContract("0x021Ae3f484eb6D65B8fd6383391dFACAb41cea8f"); // Token
         resultText.text = "Fetching RUT Balance";
         Currency result = await contract.ERC20.Get();

@@ -37,14 +37,12 @@ public class MainMenuTokenGate : MonoBehaviour
         CurrencyValue currencyValue = await contract.ERC20.Balance();
         //resultText.text = result.symbol + " (" + currencyValue.displayValue + ")";
 
-        float balanceFloat = float.Parse("currencyValue.displayValue");
+        float balanceFloat = float.Parse("await contract.ERC20.Balance()");
 
         if (balanceFloat == 3)
-        {
-            resultText.text = result.symbol + " (" + currencyValue.displayValue + ")";
-        }
+            
+        resultText.text = result.symbol + " (" + currencyValue.displayValue + ")";
+        return;
+
     }
-
-
-
 }
