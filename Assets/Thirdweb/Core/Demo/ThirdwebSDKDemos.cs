@@ -28,9 +28,10 @@ public class ThirdwebSDKDemos : MonoBehaviour
     {
     }
 
-    public void MetamaskLogin()
+    public async void MetamaskLogin()
     {
-        ConnectWallet(WalletProvider.MetaMask);
+        // ConnectWallet(WalletProvider.MetaMask);
+        string address = await sdk.wallet.Connect();
     }
 
     public void CoinbaseWalletLogin()
@@ -90,7 +91,6 @@ public class ThirdwebSDKDemos : MonoBehaviour
 
     public async void GetRUTBalance()
     {
-        // string address = await sdk.wallet.Connect();
         var contract = sdk.GetContract("0x021Ae3f484eb6D65B8fd6383391dFACAb41cea8f"); // Token
         resultText.text = "Fetching RUT Balance";
         Currency result = await contract.ERC20.Get();
@@ -106,8 +106,7 @@ public class ThirdwebSDKDemos : MonoBehaviour
         string address = await sdk.wallet.Connect();
         // Now, let's connect to the Token Drop smart contract.
         // We can get the smart contract's address from the dashboard.
-        Contract contract =
-        sdk.GetContract("0x021Ae3f484eb6D65B8fd6383391dFACAb41cea8f");
+        Contract contract = sdk.GetContract("0x021Ae3f484eb6D65B8fd6383391dFACAb41cea8f");
 
         // We've got a wallet and a smart contract, so let's mint some tokens!
         await contract.ERC20.Claim(amount);
