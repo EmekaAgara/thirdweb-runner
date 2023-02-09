@@ -27,22 +27,23 @@ public class MainMenuTokenGate : MonoBehaviour
     {
         string address = await sdk.wallet.Connect();
 
-        await CheckBalance();
+        await TokenGate();
+        // await PlayGame();
     }
 
-    public async Task CheckBalance()
+    public async Task TokenGate()
     {
         Contract contract = sdk.GetContract("0x021Ae3f484eb6D65B8fd6383391dFACAb41cea8f");
         Currency result = await contract.ERC20.Get();
         CurrencyValue currencyValue = await contract.ERC20.Balance();
-        //resultText.text = result.symbol + " (" + currencyValue.displayValue + ")";
-
-        float balanceFloat = float.Parse("await contract.ERC20.Balance()");
-
-        if (balanceFloat == 3)
-            
         resultText.text = result.symbol + " (" + currencyValue.displayValue + ")";
-        return;
+        resultText.text = "Tokens balance available, Game will start shortly";
+        SceneManager.LoadScene(1);
 
     }
+
+    // public async Task PlayGame()
+    // {
+    //     SceneManager.LoadScene(1);
+    // }
 }
