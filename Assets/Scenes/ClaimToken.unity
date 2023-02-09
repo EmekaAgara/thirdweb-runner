@@ -1445,6 +1445,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2593468494670710506, guid: 7db6f86bf1fe04201b47a51f2db76b2e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7db6f86bf1fe04201b47a51f2db76b2e, type: 3}
       propertyPath: m_Name
       value: Ch06_nonPBR@Standard Run (1)
@@ -4775,7 +4779,7 @@ Animator:
   m_GameObject: {fileID: 1697826097}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3aa29ccc3c5634cfb951e9d6a1496fc3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0063d27c0098749cf94f45abaf26050d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
