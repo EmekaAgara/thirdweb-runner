@@ -121,7 +121,7 @@ public class ThirdwebSDKDemos : MonoBehaviour
         resultText.text = "Claiming RUT Tokens";
         string address = await sdk.wallet.Connect();
         Contract contract = sdk.GetContract("0x021Ae3f484eb6D65B8fd6383391dFACAb41cea8f");
-        var amount = "1.5";
+        var amount = "10";
         await contract.ERC20.Claim(amount);
         resultText.text = "Congratulations You have claimed your reward !!";
     }
