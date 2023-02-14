@@ -27,7 +27,7 @@ unity, unity3d sdk, thirdweb sdk, thirdweb contract kit, thirdweb gaminkit, coin
 
 
 # wanna try it out ??
-1.Click the lik below
+1.Click the link below
 https://thirdweb-runner.netlify.app/
 
 2.Mint a free RUT token and then start game
