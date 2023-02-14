@@ -27,5 +27,16 @@ unity, unity3d sdk, thirdweb sdk, thirdweb contract kit, thirdweb gaminkit, coin
 
 
 # wanna try it out ??
+1.Click the lik below
 https://thirdweb-runner.netlify.app/
+
+2.Mint a free RUT token and then start game
+3. Connect your wallet approve transaction and wait for it to be confirmed.
+4. once confirmed game will start
+5. During the game if you pick up the purple coin you win and you get to mint and claim 10 tokens.
+
+# Usage of thirdweb
+contract kit for ERC20 token drop was used to create the tokens used to play the game and the 10 tokens used to reward players.
+also the gamingkit was used to connect the game tothe blockchain
+
 
