@@ -39,4 +39,9 @@ https://thirdweb-runner.netlify.app/
 contract kit for ERC20 token drop was used to create the tokens used to play the game and the 10 tokens used to reward players.
 also the gamingkit was used to connect the game tothe blockchain
 
+you can mint the game token for free here
+https://claim-rut-tokens.netlify.app/
+
+you can only play the game when you have the game tokens RUT tokens in your connected wallet
+
 
